@@ -1,6 +1,18 @@
 @import './reset';
 @import './colors';
 @import './fonts';
+html {
+    font-size: 62.5%;
+  }
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Kumbh-Sans', sans-serif;
+    font-weight: $light;
+    min-height: 100vh;
+    background-image: linear-gradient(to top, $Soft-Blue, $Soft-Violet);
+  }
 @import './mobile';
 @import './tablet';
 @import './desktop';

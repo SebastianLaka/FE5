@@ -27,4 +27,25 @@ body {
   background-image: -webkit-gradient(linear, left bottom, left top, from(#6565e7), to(#af67e9));
   background-image: linear-gradient(to top, #6565e7, #af67e9);
 }
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Kumbh-Sans', sans-serif;
+  font-weight: 400;
+  min-height: 100vh;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#6565e7), to(#af67e9));
+  background-image: linear-gradient(to top, #6565e7, #af67e9);
+}
 /*# sourceMappingURL=style.css.map */
