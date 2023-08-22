@@ -1,12 +1,12 @@
-html {
-  font-size: 62.5%;
-}
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: 'Kumbh-Sans', sans-serif;
-  font-weight: $light;
-  min-height: 100vh;
-  background-image: linear-gradient(to top, $Soft-Blue, $Soft-Violet);
+@media (min-width: 280px) {
+  .component-body {
+    display: grid;
+    grid-template-rows: 25% 75%;
+    background-color: $white;
+    height: 70vh;
+    width: 90%;
+    margin-top: 6em;
+    border-radius: 2.5em;
+    box-shadow: 0 2em 3em 0 rgba($color: $black, $alpha: 0.3);
+  }
 }
