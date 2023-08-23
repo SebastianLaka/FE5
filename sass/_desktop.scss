@@ -1,0 +1,10 @@
+@media(min-width: 992px){
+    .component-body {
+        grid-template-columns: repeat(2, 2fr);
+        .image-area{
+            &__image-mobile{
+                display: none;
+            }
+        }
+    }
+}
