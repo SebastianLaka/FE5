@@ -66,5 +66,8 @@ body {
   .component-body .image-area__image-mobile {
     display: none;
   }
+  .component-body .image-area .image-desktop {
+    display: block;
+  }
 }
 /*# sourceMappingURL=style.css.map */
