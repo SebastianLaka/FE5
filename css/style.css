@@ -60,14 +60,39 @@ body {
 
 @media (min-width: 992px) {
   .component-body {
-    -ms-grid-columns: (2fr)[2];
-        grid-template-columns: repeat(2, 2fr);
+    -ms-grid-columns: 50% 50%;
+        grid-template-columns: 50% 50%;
+    -ms-grid-rows: 10% 80% 10%;
+        grid-template-rows: 10% 80% 10%;
+    width: 80%;
+  }
+  .component-body .image-area {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    grid-row: 2/3;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
   }
   .component-body .image-area__image-mobile {
     display: none;
   }
   .component-body .image-area .image-desktop {
     display: block;
+    -webkit-transform: translateX(-15%);
+            transform: translateX(-15%);
+  }
+  .component-body .image-area .image-desktop .image-icon {
+    position: relative;
+    width: 400px;
+    height: 325px;
+  }
+  .component-body .image-area .image-desktop .image-icon__box {
+    position: absolute;
+    left: -10px;
+    top: 130px;
+    width: 160px;
+    height: 160px;
   }
 }
 /*# sourceMappingURL=style.css.map */

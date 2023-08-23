@@ -1,13 +1,30 @@
-@media(min-width: 992px){
-    .component-body {
-        grid-template-columns: repeat(2, 2fr);
-        .image-area{
-            &__image-mobile{
-                display: none;
-            }
-            .image-desktop{
-                display: block;
-            }
+@media (min-width: 992px) {
+  .component-body {
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 10% 80% 10%;
+    width: 80%;
+    .image-area {
+        grid-row: 2/3;
+        align-self: center;
+      &__image-mobile {
+        display: none;
+      }
+      .image-desktop {
+        display: block;
+        transform: translateX(-15%);
+        .image-icon {
+          position: relative;
+          width: 400px;
+          height: 325px;
+          &__box {
+            position: absolute;
+            left: -10px;
+            top: 130px;
+            width: 160px;
+            height: 160px;
+          }
         }
+      }
     }
+  }
 }
