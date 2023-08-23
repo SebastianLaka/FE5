@@ -11,7 +11,7 @@ html {
     font-family: 'Kumbh-Sans', sans-serif;
     font-weight: $light;
     min-height: 100vh;
-    background-image: linear-gradient(to top, $Soft-Blue, $Soft-Violet);
+    background-image: linear-gradient(to top, $Soft-Blue, $Soft-Violet);  
   }
 @import './mobile';
 @import './tablet';

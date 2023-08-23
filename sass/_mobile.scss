@@ -20,6 +20,9 @@
     }
     .image-desktop{
       display: none;
+      &__box{
+        display: none;
+      }
     }
     }
   }

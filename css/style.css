@@ -56,15 +56,25 @@ body {
   .component-body .image-area .image-desktop {
     display: none;
   }
+  .component-body .image-area .image-desktop__box {
+    display: none;
+  }
 }
 
 @media (min-width: 992px) {
+  .wrapper {
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+  }
   .component-body {
     -ms-grid-columns: 50% 50%;
         grid-template-columns: 50% 50%;
     -ms-grid-rows: 10% 80% 10%;
         grid-template-rows: 10% 80% 10%;
-    width: 80%;
+    width: 70%;
+    height: 55vh;
+    position: relative;
   }
   .component-body .image-area {
     -ms-grid-row: 2;
@@ -73,6 +83,7 @@ body {
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
+    overflow: hidden;
   }
   .component-body .image-area__image-mobile {
     display: none;
@@ -93,6 +104,7 @@ body {
     top: 130px;
     width: 160px;
     height: 160px;
+    z-index: 1;
   }
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,11 +1,19 @@
 @media (min-width: 992px) {
+  .wrapper {
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+  }
   .component-body {
     grid-template-columns: 50% 50%;
     grid-template-rows: 10% 80% 10%;
-    width: 80%;
+    width: 70%;
+    height: 55vh;
+    position: relative;
     .image-area {
-        grid-row: 2/3;
-        align-self: center;
+      grid-row: 2/3;
+      align-self: center;
+      overflow: hidden;
       &__image-mobile {
         display: none;
       }
@@ -22,6 +30,7 @@
             top: 130px;
             width: 160px;
             height: 160px;
+            z-index: 1;
           }
         }
       }
