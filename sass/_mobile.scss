@@ -29,24 +29,30 @@
     .faq-area {
       display: flex;
       align-items: center;
+      justify-content: space-around;
       flex-direction: column;
-      
-      &__header{
-        font-size: 2.5rem;
+      &__header {
+        font-size: 4rem;
       }
-      .faq-question {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 2em 1em;
-        width: 100%;
-        cursor: pointer;
-        &__question {
-          font-size: 1.2rem;
+      .accordion-area{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      height: 100%;
+      width: 100%;
+        .faq-question {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          padding: 2.25em 1em;
+          width: 100%;
+          cursor: pointer;
+          &__question {
+            font-size: 1.2rem;
+            color: $Very-Darkd-Dsaturated-Blue;
+          }
         }
-       &__arrow-icon{
-      transform: scale(1.2);
-       }
       }
     }
   }

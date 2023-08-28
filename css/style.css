@@ -66,15 +66,34 @@ body {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
   }
   .component-body .faq-area__header {
-    font-size: 2.5rem;
+    font-size: 4rem;
   }
-  .component-body .faq-area .faq-question {
+  .component-body .faq-area .accordion-area {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 100%;
+    width: 100%;
+  }
+  .component-body .faq-area .accordion-area .faq-question {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -84,16 +103,13 @@ body {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    padding: 2em 1em;
+    padding: 2.25em 1em;
     width: 100%;
     cursor: pointer;
   }
-  .component-body .faq-area .faq-question__question {
+  .component-body .faq-area .accordion-area .faq-question__question {
     font-size: 1.2rem;
-  }
-  .component-body .faq-area .faq-question__arrow-icon {
-    -webkit-transform: scale(1.2);
-            transform: scale(1.2);
+    color: #1d1e35;
   }
 }
 
