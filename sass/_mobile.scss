@@ -1,4 +1,4 @@
-@media (min-width: 280px){
+@media (min-width: 280px) {
   .component-body {
     display: grid;
     grid-template-rows: 25% 75%;
@@ -6,24 +6,48 @@
     height: 70vh;
     width: 90%;
     margin-top: 6em;
+
     border-radius: 2.5em;
     box-shadow: 0 2em 3em 0 rgba($color: $black, $alpha: 0.3);
     .image-area {
-        position: relative;
-    &__image-mobile{
+      position: relative;
+      &__image-mobile {
         position: absolute;
-        width: 200px; 
+        width: 200px;
         left: 0;
         right: 0;
-        bottom: 60%; 
+        bottom: 60%;
         margin: 0 auto;
-    }
-    .image-desktop{
-      display: none;
-      &__box{
+      }
+      .image-desktop {
         display: none;
+        &__box {
+          display: none;
+        }
       }
     }
+    .faq-area {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      
+      &__header{
+        font-size: 2.5rem;
+      }
+      .faq-question {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 2em 1em;
+        width: 100%;
+        cursor: pointer;
+        &__question {
+          font-size: 1.2rem;
+        }
+       &__arrow-icon{
+      transform: scale(1.2);
+       }
+      }
     }
   }
 }
