@@ -34,13 +34,13 @@
       &__header {
         font-size: 4rem;
       }
-      .accordion-area{
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-direction: column;
-      height: 100%;
-      width: 100%;
+      .accordion-area {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
         .faq-question {
           display: flex;
           align-items: center;
@@ -57,3 +57,34 @@
     }
   }
 }
+@media (min-width: 325px) {
+  .component-body{ 
+  .faq-area {
+    .accordion-area {
+      .faq-question {
+        padding: 1.75em 1.25em;
+        font-size: 1.4rem;
+        &__arrow-icon{
+          transform: scale(1.2);
+        }
+      }    
+    }
+  }
+}
+}
+@media (min-width: 375px) {
+  .component-body{ 
+  .faq-area {
+    .accordion-area {
+      .faq-question {
+        padding: 1.8em 1.5em;
+        font-size: 1.6rem;
+        &__arrow-icon{
+          transform: scale(1.3);
+        }
+      }
+    }
+  }
+}
+}
+
