@@ -168,9 +168,6 @@ body {
     bottom: 40%;
     margin: 0 auto;
   }
-  .component-body .faq-area__header {
-    font-size: 5rem;
-  }
   .component-body .faq-area .accordion-area .faq-question {
     padding: 2.5em 3em;
   }
@@ -185,7 +182,7 @@ body {
 
 @media (min-width: 992px) {
   .wrapper {
-    max-width: 768px;
+    max-width: 1100px;
     width: 100%;
     margin: 0 auto;
   }
@@ -194,7 +191,7 @@ body {
         grid-template-columns: 50% 50%;
     -ms-grid-rows: 10% 80% 10%;
         grid-template-rows: 10% 80% 10%;
-    width: 70%;
+    width: 90%;
     height: 60vh;
   }
   .component-body .image-area {
@@ -209,18 +206,40 @@ body {
     display: block;
     background-image: url(/faqaccordion/images/illustration-woman-online-desktop.svg);
     height: 100%;
+    width: 80%;
     background-repeat: no-repeat;
-    background-position: 100% center;
-    background-size: 115%;
-    margin-right: 1em;
+    background-position: 140% center;
+    background-size: 110%;
+    margin-right: 10em;
     position: relative;
   }
   .component-body .image-area .image-desktop__image-icon {
     position: absolute;
     left: -60px;
-    top: 170px;
-    width: 150px;
-    height: 150px;
+    top: 165px;
+    width: 40%;
+    height: 42.5%;
+  }
+  .component-body .faq-area {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    grid-row: 2/3;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .component-body .faq-area .accordion-area {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .component-body .faq-area .accordion-area .faq-question {
+    padding: 1em 2em 1em 0;
+    margin: 1.25em 0;
+    width: 75%;
   }
 }
 /*# sourceMappingURL=style.css.map */

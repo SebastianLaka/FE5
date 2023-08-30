@@ -1,17 +1,16 @@
 @media (min-width: 992px) {
   .wrapper {
-    max-width: 768px;
+    max-width: 1100px;
     width: 100%;
     margin: 0 auto;
   }
   .component-body {
     grid-template-columns: 50% 50%;
     grid-template-rows: 10% 80% 10%;
-    width: 70%;
+    width: 90%;
     height: 60vh;
     .image-area {
       grid-row: 2/3;
-
       &__image-mobile {
         display: none;
       }
@@ -19,19 +18,36 @@
         display: block;
         background-image: url(/faqaccordion/images/illustration-woman-online-desktop.svg);
         height: 100%;
+        width: 80%;
         background-repeat: no-repeat;
-        background-position: 100% center;
-        background-size: 115%;
-        margin-right: 1em;
+        background-position: 140% center;
+        background-size: 110%;
+        margin-right: 10em;
         position: relative;
         &__image-icon {
           position: absolute;
               left: -60px;
-              top: 170px;
-              width: 150px;
-              height: 150px;
+              top: 165px;
+              width: 40%;
+              height: 42.5%;
         }
       }
+    }
+    .faq-area{
+      grid-column: 2/3;
+      grid-row: 2/3;
+      align-items: flex-start;
+      .accordion-area {
+        align-items: flex-start;
+      .faq-question{
+        padding: 1em 2em 1em 0;
+        margin: 1.25em 0;
+        width: 75%;
+        // &__arrow-icon{
+        //   margin-right: 5em;
+        // }
+      }
+    }
     }
   }
 }
