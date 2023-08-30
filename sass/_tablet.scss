@@ -1,0 +1,33 @@
+@media (min-width: 768px) {
+    .component-body{
+        height: 75vh; 
+        margin-top: 10em;
+        .image-area {
+            position: relative;
+            &__image-mobile {
+              position: absolute;
+              width: 300px;
+              left: 0;
+              right: 0;
+              bottom: 40%;
+              margin: 0 auto;
+            }
+          }
+    .faq-area {
+        &__header {
+            font-size: 5rem;
+          }
+      .accordion-area {
+        .faq-question {
+          padding: 2.5em 3em;
+          &__question{
+            font-size: 1.4rem;
+          }
+          &__arrow-icon{
+            transform: scale(1.5);
+          }
+        }
+      }
+    }
+  }
+  }

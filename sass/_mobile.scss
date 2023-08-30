@@ -91,4 +91,21 @@
   }
 }
 }
+@media (min-width: 576px) {
+  .component-body{ 
+  .faq-area {
+    .accordion-area {
+      .faq-question {
+        padding: 2.25em 3em;
+        &__question{
+          font-size: 1.4rem;
+        }
+        &__arrow-icon{
+          transform: scale(1.4);
+        }
+      }
+    }
+  }
+}
+}
 

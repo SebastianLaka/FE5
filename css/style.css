@@ -139,6 +139,50 @@ body {
   }
 }
 
+@media (min-width: 576px) {
+  .component-body .faq-area .accordion-area .faq-question {
+    padding: 2.25em 3em;
+  }
+  .component-body .faq-area .accordion-area .faq-question__question {
+    font-size: 1.4rem;
+  }
+  .component-body .faq-area .accordion-area .faq-question__arrow-icon {
+    -webkit-transform: scale(1.4);
+            transform: scale(1.4);
+  }
+}
+
+@media (min-width: 768px) {
+  .component-body {
+    height: 75vh;
+    margin-top: 10em;
+  }
+  .component-body .image-area {
+    position: relative;
+  }
+  .component-body .image-area__image-mobile {
+    position: absolute;
+    width: 300px;
+    left: 0;
+    right: 0;
+    bottom: 40%;
+    margin: 0 auto;
+  }
+  .component-body .faq-area__header {
+    font-size: 5rem;
+  }
+  .component-body .faq-area .accordion-area .faq-question {
+    padding: 2.5em 3em;
+  }
+  .component-body .faq-area .accordion-area .faq-question__question {
+    font-size: 1.4rem;
+  }
+  .component-body .faq-area .accordion-area .faq-question__arrow-icon {
+    -webkit-transform: scale(1.5);
+            transform: scale(1.5);
+  }
+}
+
 @media (min-width: 992px) {
   .wrapper {
     max-width: 768px;
