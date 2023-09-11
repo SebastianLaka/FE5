@@ -120,11 +120,20 @@ body {
     margin: 1em 1em 1em 0;
     width: 100%;
   }
+  .component-body .faq-area .accordion-area .faq-question .show-answer {
+    display: block;
+    margin: 0 1.5em;
+    width: 100%;
+  }
+  .component-body .faq-area .accordion-area .faq-question .rotate-arrow {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
 }
 
 @media (min-width: 325px) {
   .component-body .faq-area .accordion-area .faq-question {
-    padding: 2.25em 1.25em;
+    padding: 1em 1.25em;
   }
   .component-body .faq-area .accordion-area .faq-question__question {
     font-size: 1.3rem;
