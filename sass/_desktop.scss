@@ -52,6 +52,12 @@
           width: 100%;
           margin-bottom: 0;
         }
+        .show-answer{
+          display: block;
+        }
+        .rotate-arrow{
+            transform: rotate(180deg);
+        }
       }
     }
     }

@@ -23,6 +23,12 @@
           &__arrow-icon{
             transform: scale(1.5);
           }
+          .show-answer{
+            display: block;
+          }
+          .rotate-arrow{
+              transform: rotate(180deg);
+          }
         }
       }
     }
