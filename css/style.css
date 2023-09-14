@@ -276,10 +276,11 @@ body {
             align-items: flex-start;
     margin: 1em 0;
     padding: 0;
+    width: 80%;
   }
   .component-body .faq-area .accordion-area .faq-question {
     padding: 1em 2em 1em 0;
-    width: 75%;
+    width: 100%;
   }
   .component-body .faq-area .accordion-area .faq-question__answer {
     display: none;
