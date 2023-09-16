@@ -136,8 +136,8 @@ body {
     font-size: 1.3rem;
   }
   .component-body .faq-area .accordion-area .faq-question__arrow-icon {
-    -webkit-transform: scale(1.2);
-            transform: scale(1.2);
+    -webkit-transform: scale(1.4);
+            transform: scale(1.4);
   }
   .component-body .faq-area .accordion-area .faq-question .show-answer {
     display: block;
@@ -207,10 +207,10 @@ body {
     -webkit-transform: scale(1.5);
             transform: scale(1.5);
   }
-  .component-body .faq-area .accordion-area .faq-question .show-answer {
+  .component-body .faq-area .accordion-area .faq-question .faq-question .show-answer {
     display: block;
   }
-  .component-body .faq-area .accordion-area .faq-question .rotate-arrow {
+  .component-body .faq-area .accordion-area .faq-question .faq-question .rotate-arrow {
     -webkit-transform: rotate(180deg);
             transform: rotate(180deg);
   }
@@ -287,10 +287,11 @@ body {
     width: 100%;
     margin-bottom: 0;
   }
-  .component-body .faq-area .accordion-area .faq-question .show-answer {
+  .component-body .faq-area .accordion-area .faq-question .faq-question ~ .show-answer {
     display: block;
+    color: red;
   }
-  .component-body .faq-area .accordion-area .faq-question .rotate-arrow {
+  .component-body .faq-area .accordion-area .faq-question .faq-question.rotate-arrow {
     -webkit-transform: rotate(180deg);
             transform: rotate(180deg);
   }

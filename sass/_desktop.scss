@@ -42,7 +42,6 @@
       }
       .accordion-area {
         align-items: flex-start;
-        
         margin: 1em 0;
         padding: 0;
         width: 80%;
@@ -54,10 +53,11 @@
           width: 100%;
           margin-bottom: 0;
         }
-        .show-answer{
+        .faq-question ~ .show-answer{
           display: block;
+          color: red;
         }
-        .rotate-arrow{
+        .faq-question.rotate-arrow{
             transform: rotate(180deg);
         }
       }
