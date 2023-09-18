@@ -72,7 +72,7 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    margin: 4em 0;
+    margin: 5em 0;
   }
   .component-body .faq-area__header {
     font-size: 4rem;
@@ -116,8 +116,8 @@ body {
   }
   .component-body .faq-area .accordion-area .faq-question__answer {
     display: none;
-    margin: 1em 1em 1em 0;
-    width: 100%;
+    margin: 1em 2em 1em 0;
+    width: 90%;
   }
   .component-body .faq-area .accordion-area .faq-question .show-answer {
     display: block;
@@ -130,7 +130,7 @@ body {
 
 @media (min-width: 325px) {
   .component-body .faq-area .accordion-area .faq-question {
-    padding: 1em 1.25em;
+    padding: .5em 1.25em;
   }
   .component-body .faq-area .accordion-area .faq-question__question {
     font-size: 1.3rem;
@@ -150,7 +150,7 @@ body {
 
 @media (min-width: 375px) {
   .component-body .faq-area .accordion-area .faq-question {
-    padding: 2.25em 1.5em;
+    padding: 1em 1.5em;
   }
   .component-body .faq-area .accordion-area .faq-question__question {
     font-size: 1.4rem;
@@ -170,14 +170,10 @@ body {
 
 @media (min-width: 576px) {
   .component-body .faq-area .accordion-area .faq-question {
-    padding: 2.25em 3em;
+    padding: 1em 3em;
   }
   .component-body .faq-area .accordion-area .faq-question__question {
     font-size: 1.4rem;
-  }
-  .component-body .faq-area .accordion-area .faq-question__arrow-icon {
-    -webkit-transform: scale(1.4);
-            transform: scale(1.4);
   }
 }
 
@@ -198,7 +194,7 @@ body {
     margin: 0 auto;
   }
   .component-body .faq-area .accordion-area .faq-question {
-    padding: 2.5em 3em;
+    padding: 1em 3em;
   }
   .component-body .faq-area .accordion-area .faq-question__question {
     font-size: 1.4rem;
@@ -279,7 +275,7 @@ body {
     width: 80%;
   }
   .component-body .faq-area .accordion-area .faq-question {
-    padding: 1em 2em 1em 0;
+    padding: .5em 2em 1em 0;
     width: 100%;
   }
   .component-body .faq-area .accordion-area .faq-question__answer {
@@ -287,11 +283,10 @@ body {
     width: 100%;
     margin-bottom: 0;
   }
-  .component-body .faq-area .accordion-area .faq-question .faq-question ~ .show-answer {
+  .component-body .faq-area .accordion-area .faq-question .show-answer {
     display: block;
-    color: red;
   }
-  .component-body .faq-area .accordion-area .faq-question .faq-question.rotate-arrow {
+  .component-body .faq-area .accordion-area .faq-question .rotate-arrow {
     -webkit-transform: rotate(180deg);
             transform: rotate(180deg);
   }

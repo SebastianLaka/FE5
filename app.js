@@ -1,20 +1,28 @@
 "use strict";
-const accordions = document.querySelectorAll('.faq-area');
-console.log(accordions);
-accordions.forEach(accordion => {
+// const accordion = document.querySelectorAll('.faq-area');
+// console.log(accordion);
+// accordion.forEach((showAnswer) => {
+//   showAnswer.addEventListener("click", () => {
+//     showAnswer.classList.toggle("show-answer");
+//     showAnswer.classList.toggle('rotate-arrow')
+//   });
+// });
+
+const accordions = document.querySelectorAll('.accordion-area');
+
+accordions.forEach((accordion) => {
   accordion.addEventListener("click", () => {
-  const faqQuestion = document.querySelectorAll(".faq-question")
-  faqQuestion.forEach((showAnswer, rotateArrow) =>{
-    showAnswer = document.querySelector('.faq-question__answer')
-    showAnswer.classList.toggle('show-answer')
-    rotateArrow = document.querySelector(".faq-question__arrow-icon")
-    rotateArrow.classList.toggle('rotate-arrow')
-  })
-  
+    const question = accordion.querySelector('.faq-question__question')
+    question.style.color = 'black';
+    const answer = accordion.querySelector('.faq-question__answer')
+    answer.classList.toggle('show-answer')
+    
+    const arrowIcon = accordion.querySelector(".faq-question__arrow-icon")
+    arrowIcon.classList.toggle('rotate-arrow')
+
 });
 });
-  // const arrowIconPlace = document.querySelector(".faq-question__arrow-icon")
-  // console.log(faqQuestion, arrowIconPlace);
+
   // faqQuestion.forEach(answer =>{
   //   answer.classList.toggle('show-answer')
   // })

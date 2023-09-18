@@ -46,18 +46,18 @@
         padding: 0;
         width: 80%;
       .faq-question{
-        padding: 1em 2em 1em 0;
+        padding: .5em 2em 1em 0;
         width: 100%;
         &__answer{
           display: none;
           width: 100%;
           margin-bottom: 0;
         }
-        .faq-question ~ .show-answer{
+        .show-answer{
           display: block;
-          color: red;
+          
         }
-        .faq-question.rotate-arrow{
+        .rotate-arrow{
             transform: rotate(180deg);
         }
       }
