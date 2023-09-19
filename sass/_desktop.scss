@@ -53,12 +53,16 @@
           width: 100%;
           margin-bottom: 0;
         }
+        .question-active{
+          color: $black;
+          font-weight: $bold;
+        }
         .show-answer{
           display: block;
-          
         }
         .rotate-arrow{
-            transform: rotate(180deg);
+          transform: rotate(180deg);
+          
         }
       }
     }

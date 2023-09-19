@@ -21,13 +21,20 @@
             font-size: 1.4rem;
           }
           &__arrow-icon{
-            transform: scale(1.5);
+            width: 1.4em;
+            height: 1em;
           }
-          .faq-question .show-answer{
+          .question-active{
+            color: $black;
+            font-weight: $bold;
+          }
+          .show-answer{
             display: block;
           }
-          .faq-question .rotate-arrow{
+          .rotate-arrow{
               transform: rotate(180deg);
+              width: 1.4em;
+              height: 1em;
           }
         }
       }
