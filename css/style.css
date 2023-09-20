@@ -258,7 +258,7 @@ body {
   }
   .component-body .image-area .image-desktop {
     display: block;
-    background-image: url(/faqaccordion/images/illustration-woman-online-desktop.svg);
+    background-image: url(../images/illustration-woman-online-desktop.svg);
     height: 100%;
     width: 80%;
     background-repeat: no-repeat;
